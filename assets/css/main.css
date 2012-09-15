@@ -1,0 +1,40 @@
+body {
+  background-image:url('../img/shattered.png');
+  padding-top: 10px; /* 60px to make the container go all the way to the bottom of the topbar */
+  font-family: 'Ubuntu' !important; 
+  font-weight: 400;
+}
+
+#myCarousel {
+  margin-top: 40px;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.carousel-linked-nav {
+  width: 120px;
+  margin-bottom: 20px;
+  margin-top: 20px;   
+}
+
+.item {
+  position:relative; margin-left:auto; margin-right:auto;
+}
+
+.centered {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-family: 'Codystar', cursive !important;
+  font-size: 26px !important;
+}
+
+.twoWay {
+  background-image:url('../img/shattered.png') !important;
+}
