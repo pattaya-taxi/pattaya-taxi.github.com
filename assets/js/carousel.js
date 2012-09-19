@@ -18,6 +18,7 @@
  * ========================================================== */
 
  /* SLIDE ON CLICK */
+ $
 
  $('.carousel-linked-nav > li > a').click(function() {
 
