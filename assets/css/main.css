@@ -1,12 +1,12 @@
 body {
   background-image:url('../img/dust.png');
-  padding-top: 10px; /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-top: 30px; /* 60px to make the container go all the way to the bottom of the topbar */
   font-family: 'Ubuntu' !important; 
   font-weight: 400;
 }
 
 #myCarousel {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .carousel-linked-nav,
@@ -17,8 +17,7 @@ body {
 
 .carousel-linked-nav {
   width: 120px;
-  margin-bottom: 20px;
-  margin-top: 20px;   
+  margin-top: 10px;   
 }
 
 .item {
