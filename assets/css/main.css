@@ -1,5 +1,5 @@
 body {
-  background-image:url('../img/dust.png');
+  background-image:url('../img/dust.png') !important;
   padding-top: 30px; /* 60px to make the container go all the way to the bottom of the topbar */
   font-family: 'Ubuntu' !important; 
   font-weight: 400;
@@ -29,11 +29,10 @@ body {
   margin-bottom: 20px;
 }
 
-.brand {
-  font-family: 'Codystar', cursive !important;
-  font-size: 26px !important;
-}
+.brand { font-family: 'Codystar', cursive !important; font-size: 26px !important; }
+.twoWay { background-image:url('../img/shattered.png') !important; }
 
-.twoWay {
-  background-image:url('../img/shattered.png') !important;
+#footer{ 
+  background-color: black;
+  color: white;
 }
