@@ -30,9 +30,28 @@ body {
 }
 
 .brand { font-family: 'Codystar', cursive !important; font-size: 26px !important; }
-.twoWay { background-image:url('../img/shattered.png') !important; }
+.cute { 
+  background-image:url('../img/shattered.png') !important;
+  margin-bottom: 10px; 
+}
 
 #footer{ 
   background-color: black;
   color: white;
+}
+
+.table tr.title {
+  font-size: 24px !important;
+}
+
+
+.table tr:not(.title) th:first-child {
+  text-align: right;
+}
+.table tr:not(.title) th:first-child +th {
+  text-align: center;
+}
+
+.table summary {
+  text-align: center;
 }
