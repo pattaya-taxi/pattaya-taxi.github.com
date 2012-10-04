@@ -1,6 +1,6 @@
 body {
   background-image:url('../img/dust.png') !important;
-  padding-top: 30px; /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-top: 50px; /* 60px to make the container go all the way to the bottom of the topbar */
   font-family: 'Ubuntu' !important; 
   font-weight: 400;
 }
@@ -56,14 +56,14 @@ body {
   text-align: center;
 }
 
-    .marketing_pages .main .integrated-workflow {
+    .integrated-workflow {
       margin-bottom: 50px; }
-      .marketing_pages .main .integrated-workflow h2 {
+       .integrated-workflow h2 {
         text-align: center;
         font-size: 22px;
         margin-bottom: 15px;
-        background: url("/images/marketing_pages/content_marketing/integrated-workflow-bg.png") 50% 50% no-repeat; }
-      .marketing_pages .main .integrated-workflow .step1 .arrow, .marketing_pages .main .integrated-workflow .step2 .arrow {
+        background: url("../img/integrated-workflow-bg.png") 50% 50% no-repeat; }
+      .integrated-workflow .step1 .arrow, .integrated-workflow .step2 .arrow {
         position: absolute;
         right: -32px;
         top: 70px;
@@ -104,14 +104,9 @@ body {
         .integrated-workflow .step p {
           font-size: 18px;
           line-height: 22px;
-          font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif; }
+          
+       }
 
-.arrow {
-        position: absolute;
-        right: -32px;
-        top: 70px;
-        z-index: 1000; 
-}
 
 <!-- Remove this if needed -->
 .heading-hr span {
@@ -139,3 +134,7 @@ body {
   background-image:url('../img/dust.png');
   padding: 0 20px;
   font-size: 22px; }
+
+.partner div {
+  text-align: center;
+}
