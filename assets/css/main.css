@@ -45,7 +45,7 @@ body {
 }
 
 
-.table tr:not(.title) th:first-child {
+.table th:first-child {
   text-align: right;
 }
 .table tr:not(.title) th:first-child +th {
@@ -58,11 +58,6 @@ body {
 
     .integrated-workflow {
       margin-bottom: 50px; }
-       .integrated-workflow h2 {
-        text-align: center;
-        font-size: 22px;
-        margin-bottom: 15px;
-        background: url("../img/integrated-workflow-bg.png") 50% 50% no-repeat; }
       .integrated-workflow .step1 .arrow, .integrated-workflow .step2 .arrow {
         position: absolute;
         right: -32px;
@@ -80,7 +75,6 @@ body {
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
           border-radius: 4px;
-          background-color: #f7f5ef;
           background-repeat: repeat-x;
           background-image: -khtml-gradient(linear, left top, left bottom, from(#f7f5ef), to(#f7f5ef));
           background-image: -moz-linear-gradient(top, #f7f5ef, #f7f5ef);
@@ -96,7 +90,7 @@ body {
         .integrated-workflow .step h3 {
           font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
           font-weight: bold;
-          font-size: 18px;
+          font-size: 22px;
           line-height: 22px;
           margin-bottom: 10px;
           height: 46px;
@@ -137,4 +131,9 @@ body {
 
 .partner div {
   text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
 }
