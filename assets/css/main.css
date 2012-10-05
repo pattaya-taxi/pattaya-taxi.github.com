@@ -30,6 +30,10 @@ body {
 }
 
 .brand { font-family: 'Codystar', cursive !important; font-size: 26px !important; }
+.cute { 
+  background-image:url('../img/shattered.png') !important;
+  margin-bottom: 10px; 
+}
 
 #footer{ 
   background-color: black;
@@ -41,89 +45,97 @@ body {
 }
 
 
-.table th:first-child {
+.table th:first-child, .table tr:not(.title) th:first-child +th, .table summary  {
   text-align: right;
 }
-.table tr:not(.title) th:first-child +th {
-  text-align: center;
-}
 
-.table summary {
-  text-align: center;
+.integrated-workflow {
+  margin-bottom: 50px; 
 }
+.integrated-workflow .step1 .arrow, .integrated-workflow .step2 .arrow {
+  position: absolute;
+  right: -32px;
+  top: 70px;
+  z-index: 1000; 
+}
+.integrated-workflow .step1 h3 {
+  background: url("../img/1.png") 0% 50% no-repeat; 
+}
+.integrated-workflow .step2 h3 {
+  background: url("../img/2.png") 0% 50% no-repeat; 
+}
+.integrated-workflow .step3 h3 {
+  background: url("../img/3.png") 0% 50% no-repeat; 
+}
+.integrated-workflow .step {
+  position: relative; 
+}
+.integrated-workflow .step > .inner {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f7f5ef), to(#f7f5ef));
+  background-image: -moz-linear-gradient(top, #f7f5ef, #f7f5ef);
+  background-image: -ms-linear-gradient(top, #f7f5ef, #f7f5ef);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f5ef), color-stop(100%, #f7f5ef));
+  background-image: -webkit-linear-gradient(top, #f7f5ef, #f7f5ef);
+  background-image: -o-linear-gradient(top, #f7f5ef, #f7f5ef);
+  background-image: linear-gradient(top, #f7f5ef, #f7f5ef);
+  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)", #f7f5ef, #f7f5ef;
+  padding: 20px;
+  border: 1px solid #ccc;
+  min-height: 130px; 
+}
+.integrated-workflow .step h3 {
+  font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  height: 46px;
+  padding-left: 50px; 
+}
+.integrated-workflow .step p {
+  font-size: 18px;
+  line-height: 22px;
 
-    .integrated-workflow {
-      margin-bottom: 50px; }
-      .integrated-workflow .step1 .arrow, .integrated-workflow .step2 .arrow {
-        position: absolute;
-        right: -32px;
-        top: 70px;
-        z-index: 1000; }
-      .integrated-workflow .step1 h3 {
-        background: url("../img/1.png") 0% 50% no-repeat; }
-      .integrated-workflow .step2 h3 {
-        background: url("../img/2.png") 0% 50% no-repeat; }
-      .integrated-workflow .step3 h3 {
-        background: url("../img/3.png") 0% 50% no-repeat; }
-      .integrated-workflow .step {
-        position: relative; }
-        .integrated-workflow .step > .inner {
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          border-radius: 4px;
-          background-repeat: repeat-x;
-          background-image: -khtml-gradient(linear, left top, left bottom, from(#f7f5ef), to(#f7f5ef));
-          background-image: -moz-linear-gradient(top, #f7f5ef, #f7f5ef);
-          background-image: -ms-linear-gradient(top, #f7f5ef, #f7f5ef);
-          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f5ef), color-stop(100%, #f7f5ef));
-          background-image: -webkit-linear-gradient(top, #f7f5ef, #f7f5ef);
-          background-image: -o-linear-gradient(top, #f7f5ef, #f7f5ef);
-          background-image: linear-gradient(top, #f7f5ef, #f7f5ef);
-          filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)", #f7f5ef, #f7f5ef;
-          padding: 20px;
-          border: 1px solid #ccc;
-          min-height: 130px; }
-        .integrated-workflow .step h3 {
-          font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-          font-weight: bold;
-          font-size: 22px;
-          line-height: 22px;
-          margin-bottom: 10px;
-          height: 46px;
-          padding-left: 50px; }
-        .integrated-workflow .step p {
-          font-size: 18px;
-          line-height: 22px;
-          
-       }
+}
 
 
 <!-- Remove this if needed -->
 .heading-hr span {
   font-family: "Ubuntu", sans-serif;
   color: #1c1c1c;
-  text-shadow: 0 1px 0 white; }
+  text-shadow: 0 1px 0 white; 
+}
 .heading-hr {
   zoom: 1;
   background: url("../img/heading-hr-bg.png") 50% 50% repeat-x;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+}
 .heading-hr:after {
   display: table;
   content: "";
   zoom: 1;
-  *display: inline; }
+  *display: inline; 
+}
 .heading-hr:after {
-  clear: both; }
+  clear: both; 
+}
 .heading-hr.alignLeft {
-  text-align: left; }
+  text-align: left; 
+}
 .heading-hr.alignLeft span {
-  padding: 0 20px 0 0; }
+  padding: 0 20px 0 0; 
+}
 .heading-hr span {
   background-image:url('../img/dust.png');
   padding: 0 20px;
-  font-size: 22px; }
+  font-size: 22px; 
+}
 
 .partner div {
   text-align: center;
@@ -132,4 +144,11 @@ body {
 h1 {
   text-align: center;
   padding-bottom: 10px;
+}
+
+.alert {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 15px;
+
 }
